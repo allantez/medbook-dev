@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('blood_type')->nullable();
             $table->text('allergies')->nullable();
             $table->text('medications')->nullable();
+            $table->enum('service_type', ['Inpaatient', 'Otupatient', 'Other']);
             $table->timestamps();
         });
     }

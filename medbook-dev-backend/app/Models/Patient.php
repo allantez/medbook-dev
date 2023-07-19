@@ -19,5 +19,6 @@ class Patient extends Model
         'blood_type',
         'allergies',
         'medications',
+        'service_type'
     ];
 }
